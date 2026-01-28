@@ -1,3 +1,42 @@
-# desafio-traineer-datalab
-Análise Estatística dos Alunos Trainees Desafio DataLab - DataCamp 
-Neste desafio, foi realizado uma análise estatística descritiva dos dados de desempenho dos alunos trainees de um programa de formação. O objetivo é extrair insights relevantes sobre o desempenho dos alunos com base nas notas finais, horas de estudo e número de aulas assistidas.
+# **Desafio Trainee: Análise de Desempenho Estudantil**
+
+Este projeto consiste na análise estatística e preditiva de dados de alunos em uma plataforma de educação online. [cite_start]O objetivo principal é identificar padrões de estudo que impactam a nota final e construir um modelo de regressão para prever o desempenho acadêmico. [cite: 2, 3]
+
+## Tecnologias Utilizadas
+* **Python 3**.
+* **Pandas**: Manipulação e limpeza de dados.
+* **NumPy**: Cálculos estatísticos avançados.
+* **Matplotlib**: Visualização de dados e análise de distribuição.
+* **Scikit-Learn**: Implementação de modelos de Machine Learning.
+
+
+
+## Etapas do Projeto
+
+### 1. Exploração e Validação (Excel vs Python)
+fiz uma validação entre os cálculos manuais feitos em Excel e o processamento automatizado em Python.
+
+| Métrica  | Resultado Excel | Resultado Python | 
+| Média    |      73.67      |       73.67      | 
+| Mediana  |      74.50      |       74.50      | 
+| Q1 (25%) |      62.75      |       62.75      |
+
+### 2. Análise de Correlação
+A Correlção mais proxima do valor 1 é a que possui maior impacto/efetividade. Após analisar os resultados das correlações é possivel notar que as 'Horas de estudo' tem maior relação com a nota final, ou seja quanto mais tempo estuda maior a nota final será, este é o pensamento estatistico correto, entretanto a diferença de 0.002 é insignificante, acredito que seja necessário mais dados para se tirar uma melhor conclusão.
+* **Horas de Estudo vs Nota Final**: 0.9965 
+* **Aulas Assistidas vs Nota Final**: 0.9942
+
+### 3. Teste de Hipótese e Escolha de Amostras
+**Hipótese:** Alunos que estudam mais de 10 horas por semana apresentam média superior.
+
+**Metodologia de Amostragem:**
+* Apos a visualização do grafico fica mais evidente que nenhum aluno que estuda até 10h tirou uma nota superior a um aluno que estuda mais de 10h, e a escolha de grafico foi priorizando a clareza nessa diferença como se pode ver, coloquei o gráfico aqui para melhor visualização:
+![Gráfico](https://github.com/user-attachments/assets/68719a25-5706-4684-8b90-19db4df02f0b)
+
+
+---
+
+## Etapa 5: Regressão Linear (Em desenvolvimento)
+O próximo passo é a implementação de um modelo preditivo para estimar a `nota_final`.
+1. Treinamento do modelo via `LinearRegression`. 
+2. Avaliação por métricas de erro (MSE, MAE e R²).

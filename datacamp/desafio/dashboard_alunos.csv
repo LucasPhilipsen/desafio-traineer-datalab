@@ -1,7 +1,11 @@
 estatisticas;valores
 media_das_finais;73,67
+<<<<<<< HEAD
 mediana_das_finais;74,5
+=======
+mediana_das_finais;74,50
+>>>>>>> 4cf4562 (Update dashboard_alunos.csv)
 moda_das_finais;79,00
 quartis_das_finais(Q1);62,75
-quartis_das_finais(Q2);74,5
-quartis_das_finais(Q3); 85,25 
+quartis_das_finais(Q2);74,50
+quartis_das_finais(Q3);85,25

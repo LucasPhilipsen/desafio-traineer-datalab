@@ -1,4 +1,11 @@
 # **Desafio Trainee: Análise de Desempenho Estudantil**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-philipsen/)
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
 
 Este projeto consiste na análise estatística e preditiva de dados de alunos em uma plataforma de educação online. O objetivo principal é identificar padrões de estudo que impactam a nota final e construir um modelo de regressão para prever o desempenho acadêmico.
 

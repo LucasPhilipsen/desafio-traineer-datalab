@@ -1,6 +1,6 @@
 # **Desafio Trainee: Análise de Desempenho Estudantil**
 
-Este projeto consiste na análise estatística e preditiva de dados de alunos em uma plataforma de educação online. [cite_start]O objetivo principal é identificar padrões de estudo que impactam a nota final e construir um modelo de regressão para prever o desempenho acadêmico. [cite: 2, 3]
+Este projeto consiste na análise estatística e preditiva de dados de alunos em uma plataforma de educação online. O objetivo principal é identificar padrões de estudo que impactam a nota final e construir um modelo de regressão para prever o desempenho acadêmico.
 
 ## Tecnologias Utilizadas
 * **Python 3**.
@@ -17,6 +17,7 @@ Este projeto consiste na análise estatística e preditiva de dados de alunos em
 fiz uma validação entre os cálculos manuais feitos em Excel e o processamento automatizado em Python.
 
 | Métrica  | Resultado Excel | Resultado Python | 
+| :--- | :---: | :---: |
 | Média    |      73.67      |       73.67      | 
 | Mediana  |      74.50      |       74.50      | 
 | Q1 (25%) |      62.75      |       62.75      |
@@ -31,6 +32,7 @@ A Correlção mais proxima do valor 1 é a que possui maior impacto/efetividade.
 
 **Metodologia de Amostragem:**
 * Apos a visualização do grafico fica mais evidente que nenhum aluno que estuda até 10h tirou uma nota superior a um aluno que estuda mais de 10h, e a escolha de grafico foi priorizando a clareza nessa diferença como se pode ver, coloquei o gráfico aqui para melhor visualização:
+
 ![Gráfico](https://github.com/user-attachments/assets/68719a25-5706-4684-8b90-19db4df02f0b)
 
 

@@ -6,7 +6,6 @@ Neste desafio, foi realizado uma análise estatística descritiva dos dados de d
 
 
 from analytics import show_statistics, show_comparasions, show_correlations
-import data_loader as dl    
 
 show_comparasions
 show_statistics

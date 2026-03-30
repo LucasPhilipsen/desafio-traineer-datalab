@@ -29,12 +29,16 @@ fiz uma validação entre os cálculos manuais feitos em Excel e o processamento
 | Mediana  |      74.50      |       74.50      | 
 | Q1 (25%) |      62.75      |       62.75      |
 
-### 2. Análise de Correlação
-A Correlção mais proxima do valor 1 é a que possui maior impacto/efetividade. Após analisar os resultados das correlações é possivel notar que as 'Horas de estudo' tem maior relação com a nota final, ou seja quanto mais tempo estuda maior a nota final será, este é o pensamento estatistico correto, entretanto a diferença de 0.002 é insignificante, acredito que seja necessário mais dados para se tirar uma melhor conclusão.
+### 2. Estatísticas Descritivas
+Desvio Padrão: Com um desvio padrao da nota final sendo 13,95 e a média 73,67 de acordo com o Coeficiente de Variação (CV) é considerado um grau de dispersão médio/baixo, ou seja, a turma não é muito homogênea.
+Mediana vs. Média: Se a média for muito menor que a mediana, poucos alunos com notas muito baixas estão "puxando" o desempenho do grupo para baixo, como a diferença entre estes é pouca não há com oque se preocupar com alunos que despencam a média.
+
+### 3. Análise de Correlação
+A Correlção mais proxima a 1 mostra uma associação linear fortíssima entre as variáveis, a forte relação linear sugere que as variáveis são bons preditores, mas não isolam a causa raiz da nota final. Devido à diferença mínima (0.002), nota-se uma redundância entre as variáveis. Para modelos futuros, recomenda-se a simplificação ou a inclusão de variáveis ainda não contabilizadas (como histórico escolar) para capturar nuances que as horas de estudo sozinhas não explicam.
 * **Horas de Estudo vs Nota Final**: 0.9965 
 * **Aulas Assistidas vs Nota Final**: 0.9942
 
-### 3. Teste de Hipótese e Escolha de Amostras
+### 4. Teste de Hipótese e Escolha de Amostras
 **Hipótese:** Alunos que estudam mais de 10 horas por semana apresentam média superior.
 
 **Metodologia de Amostragem:**
